@@ -17,15 +17,6 @@
     <title>8bit-Music Creator</title>
 </head>
 <body>
-    <!-- bgm -->
-    <div id="Audio-Control">
-        <audio id="bgm" preload autoplay loop muted>
-            <source src="music/F-108-8bit.wav" type="audio/wav">
-        </audio>
-        <button onclick="enableMute()" class="off active" type="button">OFF</button>
-        <button onclick="disableMute()" class="on" type="button">ON</button>
-      </div>
-    
     <!-- カーソル -->
     
 <!-- サイト -->
@@ -35,9 +26,20 @@
     <div class="loader_cover loader_cover-down"></div><!--下に下がるエリア-->
     <!--/splash--></div>
     <div id="container">
-   
+        <div class="white-bar"> </div>
+        <div class="white-bar" id="white-bar2"> </div>
+
     <div class="all">
-        <div class="top">    
+        <div class="top">
+               <!-- bgm -->
+    <div id="Audio-Control">
+        <audio id="bgm" preload autoplay loop muted>
+            <source src="music/F-108-8bit.wav" type="audio/wav">
+        </audio>
+        <button onclick="enableMute()" class="off active" type="button">OFF</button>
+        <button onclick="disableMute()" class="on" type="button">ON</button>
+      </div>
+        
               <div class="burger-btn"><!-- ③ハンバーガーボタン -->
             <span class="bar bar_top"></span>
             <span class="bar bar_mid"></span>
