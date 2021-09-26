@@ -16,8 +16,16 @@
     <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
     <title>8bit-Music Creator</title>
 </head>
-
 <body>
+    <!-- bgm -->
+    <div id="Audio-Control">
+        <audio id="bgm" preload autoplay loop muted>
+            <source src="music/F-108-8bit.wav" type="audio/wav">
+        </audio>
+        <button onclick="enableMute()" class="off active" type="button">OFF</button>
+        <button onclick="disableMute()" class="on" type="button">ON</button>
+      </div>
+    
     <!-- カーソル -->
     
 <!-- サイト -->
@@ -126,6 +134,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
     <script src="/js/loading.js"></script>
+    <script src="/js/audio.js"></script>
     <script src="/js/anime.js"></script>
 </body>
 </html>
