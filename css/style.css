@@ -71,9 +71,9 @@ button {
   color: #444a6d;
   font-family: 'Noto Sans JP', sans-serif;
 }
-.all h2,
-.all h3,
-.all h4{
+h2,
+h3,
+h4{
   font-family: 'DotGothic16', sans-serif;
 }
 /* top */
@@ -134,16 +134,28 @@ background-color: #444a6b;
 
 /* fight */
 .fight{
-  height: 50vh;
+  height: 80vh;
   background-color: #444a6b;
+  text-align: center;
+}
+#co-3{
+  margin-top: 0px;
+  width: 20vw;
+}
+#co-4{
+  width: 70vw;
 }
 
 /* create */
 .create{
   background-color: #fffce1;
+  text-align: center;
 }
 .cre-01{
   height: 80vh;
+}
+.cre-01 img{
+  width: 60%;
 }
 .cre-02{
   height: 120vh;
@@ -166,9 +178,17 @@ footer{
 
 
 
+img {
+  pointer-events: none; 
+}
+
 /* ここからスマホ版 */
 @media(max-width: 450px){
 .intro p{
   font-size: 10px;
+}
+
+.fight{
+  height: 20vh;
 }
 }
