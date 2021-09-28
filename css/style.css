@@ -7,6 +7,15 @@
 body{
   width: 100%;
 }
+/*fonts*/
+@font-face {
+  font-family: 'GAS';
+  src: url('/fonts/GAS_____.TTF');
+}
+
+body {
+  font-family:'GAS';
+}
 
 /* music */
 button {
@@ -136,8 +145,11 @@ background-color: #444a6b;
 .ready{
   height: 100vh;
   background-color: #fffce1;
-  background-image: url();
 }
+.kensaku{
+  width: 40%;
+}
+
 .ready-00{
   width: 50%;
   margin-left: 10%;
@@ -196,6 +208,7 @@ footer{
 
 .nami{
   width: 100%;
+  position: relative;
 }
 
 
