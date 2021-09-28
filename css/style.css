@@ -89,7 +89,10 @@ h2{
   font-size: 50px;
 }
 h3{
-  font-size: 30px;
+  font-size: 40px;
+}
+p{
+  font-size: 20px;
 }
 /* top */
 .top{
@@ -124,7 +127,9 @@ background-size:cover;
 .intro{
   width: 100%;
   height: 100vh;
-  background-color: #5bd1d7;
+  /* background-color: #5bd1d7; */
+  background:#fffce1 url("/images/nami_ue.png") 0 0  no-repeat;
+  background-size: 1920px 580px;
   font-size: 20px;
   text-align: center;
 }
@@ -141,29 +146,47 @@ background-color: #444a6b;
 #co-2{
   width: 20vw;
 }
+.intro h2{
+  text-align: left;
+ position: absolute;
+ top: 15%;
+ left: 5%;
+}
 /* ready */
 .ready{
   height: 100vh;
   /* background-color: #fffce1; */
-  background: #fffce1 url("/images/0_yellow_zyunnbi.png") 0 0 no-repeat;
+  background:#fffce1 url("/images/0_yellow_zyunnbi.png")  no-repeat;
   background-size: contain;
 }
 .kensaku{
-  width: 40%;
+  width: 50%;
+  margin: 20px;
 }
 
 .ready-00{
-  width: 50%;
+  width: 40%;
   margin-left: 10%;
 }
 #ready-01{
   float: left;
+  position: absolute;
+  top: 20%;
 }
+
 #ready-02{
+  position: absolute;
+  top: 23%;
+  left: 50%;
 }
 .plugin{
   background-color: #abdcd6;
-  border-radius: 15px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+}
+.plugin p{
+  font-size: 13px;
 }
 
 /* fight */
@@ -182,14 +205,27 @@ background-color: #444a6b;
 
 /* create */
 .create{
-  background-color: #fffce1;
   text-align: center;
+  background:#fffce1 url("/images/1_yellow_kyokudurui.png")  no-repeat;
+  background-size: contain;
 }
 .cre-01{
   height: 80vh;
 }
+.cre-01 h3{
+  position: absolute;
+  top: 51%;
+ left: 36%;
+}
+
 .cre-01 img{
   width: 60%;
+}
+#setumei{
+  margin-top: 180px;
+}
+#pianoroll{
+  margin-top: 50px;
 }
 .cre-02{
   height: 120vh;
@@ -197,6 +233,7 @@ background-color: #444a6b;
 .cre-03{
   height: 50vh;
 }
+
 /* end */
 .end{
   height: 50vh;
@@ -219,6 +256,10 @@ img {
   pointer-events: none; 
 }
 
+.GASFONT{
+  font-family:'GAS';
+  float: left;
+}
 /* ここからスマホ版 */
 @media(max-width: 450px){
 .intro p{
