@@ -228,16 +228,30 @@ background-color: #444a6b;
   margin-top: 50px;
 }
 .cre-02{
-  height: 120vh;
+  height: 100vh;
 }
+#cre-02photo01{
+  float: left;
+}
+
 .cre-03{
   height: 50vh;
+  background-color: #fffce1;
+}
+.cre-03 h2{
+  font-size: 40px;
 }
 
 /* end */
 .end{
-  height: 50vh;
+  height: 90vh;
 
+}
+#end-sakana{
+  width: 20vw;
+  position: absolute;
+  top: 85%;
+  right: 10%;
 }
 
 .end ,
@@ -258,6 +272,9 @@ img {
 
 .GASFONT{
   font-family:'GAS';
+  float: left;
+}
+.iframe{
   float: left;
 }
 /* ここからスマホ版 */
