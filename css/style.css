@@ -214,7 +214,7 @@ background-color: #444a6b;
 }
 .cre-01 h3{
   position: absolute;
-  top: 51%;
+  top: 48%;
  left: 36%;
 }
 
@@ -229,11 +229,8 @@ background-color: #444a6b;
 }
 .cre-02{
   height: 100vh;
+  margin-top: 100px;
 }
-#cre-02photo01{
-  float: left;
-}
-
 .cre-03{
   height: 50vh;
   background-color: #fffce1;
@@ -242,10 +239,15 @@ background-color: #444a6b;
   font-size: 40px;
 }
 
+#cre-02photo01{
+flex-direction: row;
+}
+.cre-img{
+  width: 20%;
+}
 /* end */
 .end{
   height: 90vh;
-
 }
 #end-sakana{
   width: 20vw;
