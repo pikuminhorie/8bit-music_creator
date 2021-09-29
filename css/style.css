@@ -209,6 +209,12 @@ background-color: #444a6b;
   background:#fffce1 url("/images/1_yellow_kyokudurui.png")  no-repeat;
   background-size: contain;
 }
+.create iframe{
+  margin-top: 50px;
+}
+h4{
+  font-size: 35px;
+}
 .cre-01{
   height: 80vh;
 }
@@ -228,8 +234,10 @@ background-color: #444a6b;
   margin-top: 50px;
 }
 .cre-02{
+  width: 50%;
   height: 100vh;
   margin-top: 100px;
+  margin-left:30% ;
 }
 .cre-03{
   height: 50vh;
@@ -238,12 +246,14 @@ background-color: #444a6b;
 .cre-03 h2{
   font-size: 40px;
 }
-
+.code-02{
+  margin-top: 50px;
+}
 #cre-02photo01{
-flex-direction: row;
+  float: left;
 }
 .cre-img{
-  width: 20%;
+  width: 200px;
 }
 /* end */
 .end{
