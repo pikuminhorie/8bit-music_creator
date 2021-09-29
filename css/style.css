@@ -220,7 +220,7 @@ h4{
 }
 .cre-01 h3{
   position: absolute;
-  top: 48%;
+  top: 46.4%;
  left: 36%;
 }
 
@@ -237,10 +237,15 @@ h4{
   width: 50%;
   height: 100vh;
   margin-top: 100px;
-  margin-left:30% ;
+  margin-left:25% ;
+}
+.cre-02photo{
+  margin-left: 100px;
 }
 .cre-03{
   height: 50vh;
+  padding-top: 80px;
+  padding-bottom: 80px;
   background-color: #fffce1;
 }
 .cre-03 h2{
@@ -254,6 +259,15 @@ h4{
 }
 .cre-img{
   width: 200px;
+}
+.tips{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 70%;
+  background-color: #abdcd6;
+}
+.tips p{
+  font-size: 20px;
 }
 /* end */
 .end{
