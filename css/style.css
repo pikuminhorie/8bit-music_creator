@@ -139,6 +139,9 @@ background-color: #444a6b;
 }
 #co-2{
 width: 20vw;
+position: absolute;
+top: 5%;
+right: 10%;
 }
 .intro h2{
 text-align: left;
@@ -262,6 +265,7 @@ margin-top: 50px;
 margin-bottom: 50px;
 width: 70%;
 background-color: #abdcd6;
+border-radius: 15px;
 }
 .tips p{
 font-size: 20px;
