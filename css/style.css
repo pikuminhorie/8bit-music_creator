@@ -306,8 +306,8 @@ float: left;
 }
 /* ここからスマホ版 */
 @media(max-width: 450px){
-.intro p{
-font-size: 10px;
+.all{
+  width: 100vw;
 }
 
 .fight{
@@ -317,6 +317,71 @@ height: 20vh;
 .top:before{
 /*背景画像設定*/
 background:url("/images/19201080Top-8bitphone.gif") no-repeat center;
-background-size:cover;
+background-size:450px;
+}
+.intro{
+  height: 50vh;
+  background-size: 400px 380px;
+}
+.intro p{
+font-size: 10px;
+}
+.intro h2{
+  position: absolute;
+  top: 350px;
+}
+#co-3{
+  position: absolute;
+  top: 750px;
+  left: 130px;
+}
+#co-4{
+  position: absolute;
+  top: 850px;
+  left: 50px;
+}
+.cre-01{
+  height:300px;
+}
+.cre-03{
+  display: none;
+}
+.cre-02photo{
+  margin: 0;
+}
+.ready{
+height: 350px;
+}
+#ready-01,
+#ready-02{
+  position: absolute;
+  top: 460px;
+}
+h2{
+  font-size: 30px;
+}
+h3{
+  font-size: 20px;
+}
+h4{
+  font-size: 15px;
+}
+p{
+  font-size: 10px;
+}
+.plugin p{
+  font-size: 5px;
+}
+.plugin{
+  margin: 0;
+}
+#ready-01 ,
+#ready-02{
+  margin: 0;
+  padding: 0;
+}
+
+.iframe{
+  float: none;
 }
 }
